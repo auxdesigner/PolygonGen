@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/CordovaLib/CordovaLib.iml" filepath="$PROJECT_DIR$/platforms/android/CordovaLib/CordovaLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/android.iml" filepath="$PROJECT_DIR$/platforms/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/ca.purplemad.wallpaper/src/ca.purplemad.wallpaper.iml" filepath="$PROJECT_DIR$/plugins/ca.purplemad.wallpaper/src/ca.purplemad.wallpaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/org.apache.cordova.device/src/org.apache.cordova.device.iml" filepath="$PROJECT_DIR$/plugins/org.apache.cordova.device/src/org.apache.cordova.device.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/org.apache.cordova.file/src/org.apache.cordova.file.iml" filepath="$PROJECT_DIR$/plugins/org.apache.cordova.file/src/org.apache.cordova.file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/src/org.apache.cordova.statusbar.iml" filepath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/src/org.apache.cordova.statusbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/org.devgeeks.Canvas2ImagePlugin/src/org.devgeeks.Canvas2ImagePlugin.iml" filepath="$PROJECT_DIR$/plugins/org.devgeeks.Canvas2ImagePlugin/src/org.devgeeks.Canvas2ImagePlugin.iml" />
+    </modules>
+  </component>
+</project>

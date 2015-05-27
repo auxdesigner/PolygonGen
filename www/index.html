@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trianglify Background Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <!-- your app's js -->
+
+    
+  </head>
+  <body ng-app="myApp" scroll="false">
+    <ion-content
+    scroll="false"
+    overflow-scroll="false">
+
+
+
+    <div class="loading"><div><img src="img/icon-512.png" width="72" height="72"><br><br>Working my magic...</div></div>
+    <div on-tap="magic()" ng-click="magic()" id="randomise-colours" class="colour-buttons actionbtns" href="#"><img src="img/ic_auto_fix_48px.svg" width="24" height="24"></div>
+    <div on-tap="save()" ng-click="save()" id="download-btn" class="actionbtns" ><img src="img/ic_get_app_48px.svg" width="24" height="24"></div>
+    <div class="toaster">Awesome! Saved to your gallery.</div>
+    <canvas id="the-canvas"></canvas>
+
+
+  </ion-content>
+
+
+    
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile.custom.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+   
+    
+    <script src="js/d3.js"></script>
+    <script src="js/trianglify-min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
